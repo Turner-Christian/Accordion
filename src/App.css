@@ -1,0 +1,28 @@
+
+#root {
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  text-align: center;
+  width: 100vw;
+}
+
+/* .container{
+  border: .5rem;
+  border-style: solid;
+  border-color: white;
+} */
+
+.item_container {
+  cursor: pointer;
+  margin: 0 auto;
+  border-bottom: .1rem;
+  border-color: white;
+  border-bottom-style: solid;
+  margin-bottom: .5rem;
+  width: 80%;
+  display: flex;
+}
+
+.header_box {
+  margin: 0;
+}
