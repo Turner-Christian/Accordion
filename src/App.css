@@ -1,9 +1,8 @@
-
 #root {
-  /* margin: 0 auto; */
-  /* padding: 2rem; */
-  text-align: center;
-  width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 40vh;
 }
 
 /* .container{
@@ -14,15 +13,27 @@
 
 .item_container {
   cursor: pointer;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   border-bottom: .1rem;
   border-color: white;
   border-bottom-style: solid;
   margin-bottom: .5rem;
-  width: 80%;
-  display: flex;
+  width: 90vw;
+  overflow: hidden;
+}
+
+.drop_box {
+  height: min-content;
 }
 
 .header_box {
   margin: 0;
+  text-align: left;
+  /* border-style: solid; */
+}
+
+.content_box {
+  /* border-style: solid; */
+  text-align: left;
+  transition: 3s ease-in-out;
 }
